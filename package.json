@@ -1,0 +1,29 @@
+{
+  "name": "simple-counter-front",
+  "version": "1.0.0",
+  "description": "Simple demo counter using Redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivier2t/simple-counter-front.git"
+  },
+  "keywords": [
+    "Demo",
+    "Counter",
+    "Node",
+    "Redis"
+  ],
+  "author": "Olivier de Turckheim",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/olivier2t/simple-counter-front/issues"
+  },
+  "homepage": "https://github.com/olivier2t/simple-counter-front#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.1.2"
+  }
+}
