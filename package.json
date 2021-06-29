@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/olivier2t/simple-counter-front.git"
   },
+  "files": ["dist/**/*"],
   "keywords": [
     "Demo",
     "Counter",
