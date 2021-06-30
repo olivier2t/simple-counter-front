@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha index.test.js",
-    "build": "tsc"
+    "build": "tsc index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/olivier2t/simple-counter-front.git"
   },
-  "files": ["dist/**/*"],
+  "files": [
+    "dist/**/*"
+  ],
   "keywords": [
     "Demo",
     "Counter",
@@ -30,6 +32,7 @@
   },
   "devDependencies": {
     "mocha": "^9.0.1",
-    "request": "^2.88.2"
+    "request": "^2.88.2",
+    "typescript": "^4.3.4"
   }
 }
