@@ -1,5 +1,5 @@
 {
-  "name": "simple-counter-front",
+  "name": "@olivier2t/simple-counter-front",
   "version": "1.0.0",
   "description": "Simple demo counter using Redis",
   "main": "index.js",
