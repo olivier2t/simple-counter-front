@@ -1,6 +1,6 @@
 {
   "name": "@olivier2t/simple-counter-front",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple demo counter using Redis",
   "main": "index.js",
   "scripts": {
