@@ -1,16 +1,8 @@
-on:
-  workflow_dispatch:
-    inputs:
-      create_resource_group:
-        description: 'Whether to create RG'
-        required: false
-        type: boolean
-
+name: hello-world
+on: workflow_dispatch
 jobs:
-  log-the-inputs:
+  my-job:
     runs-on: ubuntu-latest
     steps:
-      - run: |
-          echo "Create RG: $CRG"
-        env:
-          CRG: ${{ inputs.create_resource_group }}
+      - name: my-step
+        run: echo "Hello World!"
